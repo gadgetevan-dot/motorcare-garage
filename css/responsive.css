@@ -1,0 +1,6 @@
+/* Tablet dan HP */
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.foot .wrap{grid-template-columns:1fr 1fr}}
+@media(max-width:820px){.burger{display:block}
+#menu{display:none;position:absolute;top:68px;left:0;right:0;background:var(--dark);flex-direction:column;padding:20px;gap:14px;align-items:flex-start}
+#menu.open{display:flex}}
+@media(max-width:560px){.row{grid-template-columns:1fr}.foot .wrap{grid-template-columns:1fr}.sec{padding:44px 0}}
